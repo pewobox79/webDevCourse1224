@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- wichtige meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Main Franken Web Dev Course</title>
+    <meta name="description" content="hier ist die beschreibung für suchmaschine">
+
+    <!-- optionale meta-->
+    <meta name="og:title" content="Web Dev Course">
+    <meta name="og:description" content="beschreibung social media">
+
+    <!--styles-->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/custom.css">
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>About us</li>
+                <li>Impressum</li>
+            </ul>
+        </nav>
+
+        <img src="https://www.mpg.de/18333547/original-1645563060.jpg?t=eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MjgsImZpdCI6ImNyb3AiLCJvYmpfaWQiOjE4MzMzNTQ3fQ%3D%3D--628f03e607b82f14c4237cbce5aa04d753ee8bb3"
+            alt="Logo Bild" width="100px">
+
+    </header>
+
+    <main>
+        <!-- Kommentare: <h1> ist 2x von default fontSize (16px) -->
+        <h1 class="headingStyle textRed"> HaLlo nEue
+            Welt </h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6>
+
+        <!-- h1-h6, p und weitere sind BLOCK-ELEMENTE -->
+        <p class="textRed">Hier ist ein Paragraph</p>
+
+        <!-- strong und i tags sind INLINE-BLOCK-ELEMENTE -->
+        <strong>Strong Text</strong>
+        <i>italic tag</i>
+
+        <p>hier ist ein <strong>Dicker Text</strong></p>
+
+        <!-- div ist eine art BOX, die Bereiche umfasst -->
+
+        <section id="section1" class="sectionWrapper"><!-- semantischer Tag zur besseren Struktur -->
+            <div class="sectionInner">
+                <div>
+                    <h3 class="headingStyle">Das ist der Titel der
+                        Box</h3>
+                    <div>linker teil</div>
+                    <div>rechter teil</div>
+                </div>
+
+                <div>
+                    <!-- font-weight: bold, color: diverse-->
+                    <h4 class="orderListHeading" style="color: blue">ordered List</h4>
+                    <ol style="border: 1px solid red">
+                        <li>
+                            <p>Bananen <span>5stück</span></p>
+                        </li>
+                        <li>
+                            <p>Äpfel <span>5stück</span></p>
+                        </li>
+                        <li>
+                            <p>Birnen <span>5stück</span></p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="sectionWrapper">
+            <div class="sectionInner">
+                <div>
+                    <button>Click me aber sanft</button>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section3" class="sectionWrapper">
+            <div class="sectionInner">
+                <div>
+                    <h4>Formular</h4>
+                    <form>
+
+                        <label for="username">Username</label>
+                        <input type="text" id="username">
+
+                        <label for="password">Passwort</label>
+                        <input id="password" type="password">
+
+                        <label for="einverstanden">sind sie einverstanden?</label>
+                        <input id="einverstanden" type="checkbox">
+
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        legal information
+        kontakt daten
+
+    </footer>
+
+
+</body>
+
+</html>
