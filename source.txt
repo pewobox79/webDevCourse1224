@@ -1,0 +1,38 @@
+#Usefull links and documents
+#HTML5 SECTION
+
+#HTML elements
+https://www.w3schools.com/html/html_elements.asp
+
+#HTML Attributes
+https://www.w3schools.com/html/html_attributes.asp
+
+
+
+
+##CSS SECTION
+#FlexBox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+#Breakpoints by BootStrap
+https://getbootstrap.com/docs/5.0/layout/breakpoints/
+
+
+#pseudo Classes
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+#JAVASCRIPT SECTION
+#Data Types
+https://www.w3schools.com/js/js_datatypes.asp
+
+#functions
+https://www.w3schools.com/js/js_functions.asp
+
+#DOM manipulation
+https://www.w3schools.com/js/js_htmldom.asp
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+
+
+
+
