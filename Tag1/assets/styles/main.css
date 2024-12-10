@@ -48,6 +48,11 @@ h6 {
     font-size: var(--fontSizeBig);
 }
 
+#heading2Style{
+    color: blue;
+    font-size: 4rem;
+}
+
 .textRed {
     text-decoration: underline;
     color: red
