@@ -1,5 +1,4 @@
-console.log("aus dom.js")
-
+console.log("dom.js")
 //aufrufen eines speziellen Elements aus der DOM
 const elementAusDom = document.getElementById("element");
 const mainElement = document.getElementById("main");
@@ -14,12 +13,14 @@ elementAusDom.innerHTML = "<i>Aus JS</i>" //html rendering
 const div = document.createElement("div");
 const footerHeader = document.createElement("h3");
 const footerDivElement = document.createElement("div");
+const divButton = document.createElement("div");
 
 
 //modified text
 footerHeader.innerText = "Das ist der Footer";
 footerDivElement.innerText = "Telefon: 089-1234";
 div.innerHTML = "<h3>neues Element aus JS</h3>"
+divButton.innerText = "click mich";
 
 
 // modify design
@@ -29,13 +30,18 @@ footerHeader.style.fontSize = "3rem";
 //footerHeader.style = "color: red; font-size: 3rem"
 
 
+
 //byClass Style
 footerDivElement.className = "phoneStyle phoneTextColor";
 footerDivElement.classList.remove("phoneTextColor");
 footerDivElement.classList.add("hallo");
+divButton.className = "divButtonStyle";
 
 
+//attribute management
+divButton.setAttribute("id", "divButton");
+
+
+// append elements finally
 main.appendChild(div);
-footerElement.append(footerHeader, footerDivElement)
-
-console.log("h1", elementAusDom)
+footerElement.append(footerHeader, footerDivElement, divButton)

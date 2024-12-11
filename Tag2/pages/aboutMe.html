@@ -27,13 +27,13 @@
                 <div class="item"><a href="https://www.bild.de" target="_blank" title="Bild website">Extern</a></div>
             </nav>
             <div class="searchSector">
-                <input type="text">
+                <input type="text" id="searchInput">
             </div>
             <div id="burgerIcon">
                 <img src="../assets/icons/burger-bar.png" width="20">
             </div>
             <!-- mobile navigations element START-->
-            <div id="mobileNav">
+            <div id="mobileNav" class="mobileClosed" >
                 <div id="closeButton">
                     <img src="../assets/icons/close.png" width="20px">
                 </div>
@@ -51,7 +51,7 @@
         </div>
     </header>
     <main id="main">
-        <h1>About me</h1>
+        <h1 id="heading">About me</h1>
 
         <section>
             <div class="sectionInner">
@@ -83,6 +83,7 @@
 
 <!--script immer als letztes importieren wenn es um dom manipulation geht. Sonst sind elemente noch nicht vorhanden und JS wirft einen fehler "undefined" -->
     <script src="../assets/js/dom.js"></script>
+    <script src="../assets/js/events.js"></script>
 </body>
 
 </html>

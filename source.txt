@@ -22,6 +22,9 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/
 #pseudo Classes
 https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 
+##spinner und box-shadow css templates
+https://cssloaders.github.io/
+https://getcssscan.com/css-box-shadow-examples
 
 
 #JAVASCRIPT SECTION
