@@ -36,13 +36,13 @@ header {
 }
 
 #mobileNav {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0.93);
     width: 100%;
     height: 100vh;
-    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -71,6 +71,71 @@ header {
     position: absolute;
     top: 30px;
     right: 30px
+}
+
+
+/*übung css*/
+
+.sectionInner {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    color:#00b6d0
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.box-title{
+    font-size: 2.5rem;
+}
+.box-title{
+    font-weight: bold;
+    padding: 0;
+    margin: 15px 0
+}
+
+.box-subtitle {
+    font-size: 0.8rem;
+    margin: 10px 0
+}
+
+.box-description{
+    color: black;
+    margin: 0
+}
+.box-image {
+    width: 400px;
+}
+
+.box-inner {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-button{
+    margin-top: 20px;
+    background-color: #00b6d0;
+    border-radius: 25px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.5s;
+   
+}
+
+.box-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 25px 50px -8px;
+    margin-top: 12px
 }
 
 
@@ -106,6 +171,16 @@ header {
         display: none
     }
 
+
+    .sectionInner{
+        flex-direction: row;
+        max-width: 1200px;
+        margin: auto
+    }
+
+    .box-button{
+        max-width: 250px
+    }
 }
 
 
