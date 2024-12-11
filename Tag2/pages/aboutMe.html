@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="../assets/styles/mobileFirst.css">
 
     <!-- hier ist javascript-->
-    <script src="../assets/js/main.js"></script>
+    <!-- <script src="../assets/js/main.js"></script> -->
+    
 </head>
 
 <body>
@@ -49,7 +50,7 @@
 
         </div>
     </header>
-    <main>
+    <main id="main">
         <h1>About me</h1>
 
         <section>
@@ -57,19 +58,31 @@
                 <div class="box">
                     <p class="box-subtitle">STROM</p>
                     <h3 class="box-title">Energie als Lebenselixier</h3>
-                    <p class="box-description">Wir sind Ihr zuverlässiger Partner aus der Region rund um das Thema Energie.</p>
-                    <a href="https://www.uez.de/energieloesungen" target="_blank" title="energie lösungs website" class="box-button"><div>Jetzt passenden Tarif finden</div></a>
+                    <p class="box-description">Wir sind Ihr zuverlässiger Partner aus der Region rund um das Thema
+                        Energie.</p>
+                    <a href="https://www.uez.de/energieloesungen" target="_blank" title="energie lösungs website"
+                        class="box-button">
+                        <div>Jetzt passenden Tarif finden</div>
+                    </a>
                 </div>
                 <div class="box">
                     <div class="box-inner">
-                    <img src="https://www.uez.de/_Resources/Persistent/9/3/b/c/93bc76f829dad5275f56ded82a001b4163a6068a/IMG_2500-2000x1124-620x349.webp" class="box-image">
-                    <div class="image-box-shadow"></div>
+                        <img src="https://www.uez.de/_Resources/Persistent/9/3/b/c/93bc76f829dad5275f56ded82a001b4163a6068a/IMG_2500-2000x1124-620x349.webp"
+                            class="box-image">
+                        <div class="image-box-shadow"></div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <h1 id="element">Element</h1>
     </main>
-    <footer></footer>
+    <footer id="footer"></footer>
+
+
+<!--script immer als letztes importieren wenn es um dom manipulation geht. Sonst sind elemente noch nicht vorhanden und JS wirft einen fehler "undefined" -->
+    <script src="../assets/js/dom.js"></script>
 </body>
 
 </html>

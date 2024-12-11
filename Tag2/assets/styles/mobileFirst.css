@@ -139,6 +139,19 @@ header {
 }
 
 
+/*
+*javascript class exercise
+*/
+
+.phoneStyle{
+    font-size:5rem;
+    font-weight: bold;
+    color: purple
+}
+
+.phoneTextColor {
+    color: yellow
+}
 
 @media screen and (min-width: 768px) {
 
