@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.listSectionInner {
+
+    min-height: 50vh;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.formWrapper>label,
+.formWrapper>input,
+.formWrapper > button {
+    font-size: 2rem;
+}
+
+.formWrapper > button {
+    padding: 10px 0;
+    margin-top: 8px;
+}
+
+.listOutputSection{
+
+ margin-top: 30px
+}
+
+.listItemWrapper {
+    background-color: white;
+    margin: 2px 0
+}
+
+.listItemInner {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .formWrapper {
+        width: 40%;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .listItemInner {
+        max-width: 600px;
+    }
+
+
+
+
+
+}

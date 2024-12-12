@@ -10,7 +10,7 @@ const heading = document.getElementById("heading");
 
 //define event function
 function logName() {
-    alert("hallo Peter");
+    alert("hallo Peter"); //wenn alert triggered dann unterbricht JS an diesem Punkt...erst bei schließen von Alert fenster, läuft JS weiter!!
 }
 
 function handleSearchInputChange(event) {

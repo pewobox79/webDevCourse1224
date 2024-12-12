@@ -43,5 +43,5 @@ divButton.setAttribute("id", "divButton");
 
 
 // append elements finally
-main.appendChild(div);
-footerElement.append(footerHeader, footerDivElement, divButton)
+main.appendChild(div); //nur ein element kann hinzugefügt werden..
+footerElement.append(footerHeader, footerDivElement, divButton) //liste von elementen auf einmal hinzufügen => in der Reihenfolge wie übergeben

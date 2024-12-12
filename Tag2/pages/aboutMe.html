@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../assets/styles/mobileFirst.css">
 
     <!-- hier ist javascript-->
-    <!-- <script src="../assets/js/main.js"></script> -->
-    
+
+
 </head>
 
 <body>
@@ -33,7 +33,7 @@
                 <img src="../assets/icons/burger-bar.png" width="20">
             </div>
             <!-- mobile navigations element START-->
-            <div id="mobileNav" class="mobileClosed" >
+            <div id="mobileNav" class="mobileClosed">
                 <div id="closeButton">
                     <img src="../assets/icons/close.png" width="20px">
                 </div>
@@ -81,7 +81,8 @@
     <footer id="footer"></footer>
 
 
-<!--script immer als letztes importieren wenn es um dom manipulation geht. Sonst sind elemente noch nicht vorhanden und JS wirft einen fehler "undefined" -->
+    <!--script immer als letztes importieren wenn es um dom manipulation geht. Sonst sind elemente noch nicht vorhanden und JS wirft einen fehler "undefined" -->
+    <script src="../assets/js/main.js"></script>
     <script src="../assets/js/dom.js"></script>
     <script src="../assets/js/events.js"></script>
 </body>

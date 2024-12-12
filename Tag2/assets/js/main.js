@@ -61,6 +61,16 @@ const wert2 = "2";
 console.log("vergleich werte:", wert1 == wert2) // == => vergleich auf wert NICHT auf DATENTYP
 console.log("vergleich datentype und wert", wert1 === wert2) // === => vergleich wert UND datentyp
 
+
+//addition operator +
+//wenn zwei zahlen addiert werden, dann gibt es eine mathematische Operation
+//wenn zahl mit string addiert wird, werden beide als string zusammen geführt => KEIN Mathematisch Operation
+const newResult = wert1 + wert2
+console.log("new result", newResult)
+
+
+
+
 //FUNCTIONEN in JS
 
 //ARROW FUNCTION
