@@ -50,7 +50,6 @@ function submitData(e) {
         }
 
         //füge ich das obj der total list hinzu...
-
         totalList.push(obj);
 
         //element erstellen und liste in html rendern
