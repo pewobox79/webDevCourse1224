@@ -2,3 +2,7 @@ vor dem benutzen der nodejs übung folgenden befehl aufrufen
 
 in euerem Nodejs ordner
 npm i
+
+danach 
+
+npm run dev 
