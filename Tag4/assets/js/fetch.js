@@ -6,11 +6,10 @@ const postList = document.getElementById("allPosts")
 //global data
 const URL = "https://jsonplaceholder.typicode.com/posts"
 
-
-
 //helper function
 
 const getAuthorName = (userId) => {
+    
     switch (userId) {
         case "1":
             return "Peter";
@@ -49,22 +48,21 @@ const getAuthorName = (userId) => {
 }
 
 //request von daten
-fetch(URL).then(response => {
+fetch(URL)
+    .then(response => {
 
     if (!response.ok) {
         throw new Error("HTTP request failed")
     }
 
-    return response.json()
+    return response.json();
 
-}).then(data => {
+})
+    .then(data => {
 
-    console.log("liste", data)
     data.forEach((post) => {
 
-
         //den author herausfinden
-
         const userName = getAuthorName(post.userId.toString());
 
         //template String concept => wichtig hierbei sind die BACKTICKS (``). nur damit sind durch operator ${} JS values auszulesen.

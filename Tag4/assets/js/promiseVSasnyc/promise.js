@@ -9,7 +9,7 @@ const posts = [
     }
 ]
 
-const postAnker = document.getElementById("posts")
+const postAnker = document.getElementById("posts");
 
 function getPosts() {
 

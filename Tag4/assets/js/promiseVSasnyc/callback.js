@@ -27,12 +27,11 @@ function getPosts(){
 function createPost(postValue, callback){
 
     setTimeout(()=>{
-
         posts.push(postValue)
-        //erst wenn posts vollständig ist, dann wird die callback function aktiviert 
+        //erst wenn posts vollständig sind, dann wird die callback function aktiviert und alle posts kommen in das frontend 
         callback()
     },2000)
 
 }
+createPost({ title: "post 3", body: "body 3" }, getPosts)
 
-createPost({title: "post 3", body: "body 3"}, getPosts)

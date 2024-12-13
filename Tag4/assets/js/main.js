@@ -6,15 +6,18 @@ const listItems = document.getElementById("listItems");
 
 
 //global data
-let articleNameValue = ""
-let quantityValue = ""
+let articleNameValue = "" // => variablen data
+let quantityValue = "" //=> variable data
+
 const totalList = [] //init array
 
 
 //event functions
 function aName(e) {
+    const value = ""
     articleNameValue = e.target.value
 }
+
 
 function quantValue(e) {
     quantityValue = e.target.value
@@ -41,7 +44,11 @@ function submitData(e) {
     } else {
 
         //html liste auf null setzen um verdoppelung der einträge zu vermeiden
-        listItems.innerHTML = "";
+
+        if (listItems.innerHTML.length > 0) {
+            listItems.innerHTML = "";
+            console.log("clean html")
+        }
 
         //temporärer speicher des objects for einen eintrag
         let obj = {
@@ -80,8 +87,11 @@ function submitData(e) {
 
         //form reset und reset temp data
 
+        //inputfelder leeren
         articleName.value = "";
         quantity.value = "";
+
+        //global values leeren
         articleNameValue = "";
         quantityValue = "";
 
