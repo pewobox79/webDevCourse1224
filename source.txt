@@ -27,6 +27,12 @@ https://cssloaders.github.io/
 https://getcssscan.com/css-box-shadow-examples
 
 
+#BootStrap
+https://getbootstrap.com/docs/5.3/components/buttons/
+https://getbootstrap.com/docs/5.3/components/card/#grid-cards
+https://getbootstrap.com/docs/5.3/components/navbar/
+
+
 #JAVASCRIPT SECTION
 #Data Types
 https://www.w3schools.com/js/js_datatypes.asp
@@ -37,6 +43,15 @@ https://www.w3schools.com/js/js_functions.asp
 #DOM manipulation
 https://www.w3schools.com/js/js_htmldom.asp
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+
+#methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+
+#API Resources
+https://jsonplaceholder.typicode.com
+
+
 
 
 
